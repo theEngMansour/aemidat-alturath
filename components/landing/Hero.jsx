@@ -43,7 +43,7 @@ export default function Hero() {
               />
             </h1>
             <p className="max-w-md mx-auto mt-6 text-base leading-7 text-gray-600 font-regular">
-              اعمده التراث لبيوت الشعر و الخيام و المظلات تبوك
+              أعمدة التراث لبيوت الشعر و الخيام و المظلات تبوك
             </p>
           </div>
         </div>
