@@ -1,8 +1,13 @@
+import Hero from "@/components/landing/Hero";
+import Steps from "@/components/landing/Steps";
+import Contact from "@/components/landing/Contact";
 
 export default function page() {
   return (
-    <div>
-      React
-    </div>
-  )
+    <>
+      <Hero />
+      <Steps />
+      <Contact />
+    </>
+  );
 }
