@@ -3,8 +3,8 @@ import clsx from "clsx";
 import local from "next/font/local";
 
 export const metadata = {
-  title: "أعمدة التراث",
-  description: "أعمدة التراث لبيوت الشعر و الخيام و المظلات  نسعي خدمتكم",
+  title: "Home",
+  description: "desc",
 };
 
 // inculde the fonts in app by @next/font
@@ -25,7 +25,7 @@ const regular = local({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="ar">
       <body className={clsx(black.variable, bold.variable, regular.variable)}>
         {children}
       </body>
